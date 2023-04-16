@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-02T19:29:03 BST" name="Default suite" finished-at="2023-04-02T19:29:29 BST" duration-ms="25368">
+  <suite started-at="2023-04-16T14:06:21 BST" name="Default suite" finished-at="2023-04-16T14:06:56 BST" duration-ms="35408">
     <groups>
     </groups>
-    <test started-at="2023-04-02T19:29:03 BST" name="Default test" finished-at="2023-04-02T19:29:29 BST" duration-ms="25368">
-      <class name="EcommerceAppGeneralStore">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:EcommerceAppGeneralStore@32eff876]" started-at="2023-04-02T19:29:03 BST" name="configureAppium" finished-at="2023-04-02T19:29:15 BST" duration-ms="11422" status="PASS">
+    <test started-at="2023-04-16T14:06:21 BST" name="Default test" finished-at="2023-04-16T14:06:56 BST" duration-ms="35408">
+      <class name="EcommerceAppAddToCartScenario">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:EcommerceAppAddToCartScenario@6e20b53a]" started-at="2023-04-16T14:06:21 BST" name="configureAppium" finished-at="2023-04-16T14:06:34 BST" duration-ms="13851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="fillFormTest()[pri:0, instance:EcommerceAppGeneralStore@32eff876]" started-at="2023-04-02T19:29:15 BST" name="fillFormTest" finished-at="2023-04-02T19:29:29 BST" duration-ms="13858" status="PASS">
+        <test-method signature="productAddToCartTest()[pri:0, instance:EcommerceAppAddToCartScenario@6e20b53a]" started-at="2023-04-16T14:06:34 BST" name="productAddToCartTest" finished-at="2023-04-16T14:06:56 BST" duration-ms="21475" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillFormTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:EcommerceAppGeneralStore@32eff876]" started-at="2023-04-02T19:29:29 BST" name="tearDown" finished-at="2023-04-02T19:29:29 BST" duration-ms="1" status="PASS">
+        </test-method> <!-- productAddToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EcommerceAppAddToCartScenario@6e20b53a]" started-at="2023-04-16T14:06:56 BST" name="tearDown" finished-at="2023-04-16T14:06:56 BST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- EcommerceAppGeneralStore -->
+      </class> <!-- EcommerceAppAddToCartScenario -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
