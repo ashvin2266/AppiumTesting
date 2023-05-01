@@ -1,3 +1,4 @@
+package GeneralStoreApp;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -26,7 +27,6 @@ public class EcommerceAppAddToCartScenario extends BaseTest{
 			String productName=driver.findElements(By.id("com.androidsample.generalstore:id/productName")).get(i).getText();
 			if(productName.equalsIgnoreCase("Air Jordan 9 Retro")) {
 				driver.findElements(By.id("com.androidsample.generalstore:id/productAddCart")).get(i).click();				
-				
 			}
 			}
 		driver.findElement(By.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
@@ -35,6 +35,7 @@ public class EcommerceAppAddToCartScenario extends BaseTest{
 		 *  its confuse about productname element  is in cart so we need to add wait untill cart page is loaded 
 		 *  then do assertion so its trully assert what we want to assert 
 		 *  for that add selenium support dependency in pom
+		 *  i put assertion here
 		 */
 		WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait.until(ExpectedConditions.attributeContains(driver.findElement(By.id("com.androidsample.generalstore:id/toolbar_title")), "text", "Cart"));

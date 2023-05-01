@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EcommerceAppAddToCartScenario">
+      <class name="EcommerchCheckoutTotal">
         <methods>
           <include name="tearDown"/>
           <include name="configureAppium"/>
-          <include name="productAddToCartTest"/>
+          <include name="totalPurchaseProductPriceTest"/>
         </methods>
-      </class> <!-- EcommerceAppAddToCartScenario -->
+      </class> <!-- EcommerchCheckoutTotal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
