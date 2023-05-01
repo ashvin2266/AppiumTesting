@@ -1,3 +1,4 @@
+package GeneralStoreApp;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -32,7 +33,7 @@ public class BaseTest {
 				//uiautomator driver set up for automation
 				UiAutomator2Options options=new UiAutomator2Options();
 				options.setDeviceName("PavanEmulator");
-				options.setApp("C:\\Users\\ashvi\\eclipse-workspace\\AppiumTesting\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+				options.setApp("C:\\Users\\ashvi\\eclipse-workspace\\AppiumTesting\\src\\test\\java\\resources\\General-Store.apk");
 			    
 			     driver= new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 			     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
